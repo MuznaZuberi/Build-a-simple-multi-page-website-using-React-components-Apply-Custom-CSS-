@@ -1,0 +1,272 @@
+{/*Custom CSS*/}
+
+
+ body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+{/*Header Section*/}
+.header-container{
+  background-color:#F6AB00;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 7px 10px;
+
+}
+
+
+.header_h1{
+  font-family: sans-serif;
+  font-size: 17px;
+  margin: auto;
+  color: white;
+}
+
+
+
+
+.list-items{
+  display: inline-flex;
+  align-items: center;
+  font-size: 17px;
+  column-gap: 30px;
+  font-family: sans-serif;
+  margin: auto;
+  padding: 0px 10px;
+  color: white;
+
+}
+
+
+.list-items  li{
+  padding-top: 4px;
+  color: white;
+  list-style: none;
+
+}
+
+.list-items :hover{
+  color: black;
+}
+
+.list-items a {
+  text-decoration: none;
+} 
+
+
+
+
+
+
+{/* Slider Section */}
+.slider{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+
+
+{/*Services Section*/}
+
+
+
+.our_services{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+
+.service_h1{
+  color:#F6AB00;
+  text-align: center;
+  font-size: 60px;
+  padding-top: 80px;
+}
+
+
+
+.service_h2{
+  color: #F6AB00;
+  font-size: 30px;
+}
+
+
+
+.service_box{
+  flex:40%;
+  margin: 10px;
+  padding: 16px;
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #F6AB00;
+}
+
+
+
+
+.orange_img{
+  height: 80px;
+}
+
+
+.grapes_img{
+  height: 80px;
+}
+
+.guava_img{
+   height: 80px;
+}
+
+
+
+
+
+.service_box p{
+  text-align: justify;
+  padding: 10px;
+}
+
+
+.service-btn a{
+  font-size: 20px;
+  margin: auto;
+  display: flex;
+  padding:7px;
+  background-color: #F6AB00;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  width: 100px;
+
+}
+
+
+.service-btn :hover{
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+{/*Contact Section*/}
+
+h3{
+  font-size: 60px;
+  color:#F6AB00;
+  text-align: center;
+  padding-top: 160px;
+  padding:4px;
+}
+
+
+.form-container{
+  background-color:#FAF9F8;
+   margin-top: 30px;
+   padding: 20px;
+
+}
+
+
+h4{
+  font-size: 24px;
+  color:#F6AB00;
+  text-align: center;
+}
+
+
+form{
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+
+
+fieldset{
+  border: 1px solid #F6AB00;
+  padding: 40px 30px;
+  border-radius: 7px;
+}
+
+
+legend{
+  color:#F6AB00;
+  font-size: 30px;
+}
+
+
+
+label{
+      display: block;
+      margin: 10px;
+      color:#F6AB00;
+      font-size: 18px;
+}
+
+
+
+input,textarea{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 7px 10px;
+  border: 1px solid #F6AB00;
+  border-radius: 10px;
+}
+
+
+
+.form-btn{
+  margin-top: 20px;
+  padding: 7px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color:#F6AB00;
+  color:white; 
+  font-size: 16px;
+}
+
+
+.form-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+{/*Footer Section*/}
+
+.footer_p{
+  font-size: 20px;
+  color: white;
+  margin: auto;
+  background-color:#F6AB00;
+  margin-top: 200px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
